@@ -7,7 +7,13 @@
     --dark-color: #2c3e50;
 }
 
+/* ✅ Adicionado para rolagem suave */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
+   
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -116,12 +122,12 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/project1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/universodados.webp');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* <-- imagem fixa no fundo */
     color: #fff;
     text-align: center;
-    
     padding: 0 5%;
 }
 
@@ -152,8 +158,9 @@ nav {
 
 /* About Section */
 .about {
+    
     padding: 6rem 5%;
-    background: #fff;
+    background: #ffffff00;
 }
 
 .about-container {
@@ -246,7 +253,7 @@ nav {
 .certificates img {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
 }
 
 /* Projects Section */
