@@ -208,7 +208,7 @@ nav {
 
 /* Qualification Section */
 .qualification {
-    padding: 6rem 5%;
+    padding-bottom: 0px;
     background: #f9f9f9;
 }
 
@@ -245,7 +245,7 @@ nav {
 }
 
 .certificates {
-    max-width: 1200px;
+    max-width: 400px;
     margin: 0 auto;
     text-align: center;
 }
@@ -306,7 +306,7 @@ nav {
 
 /* Contact Section */
 .contact {
-    padding: 6rem 5%;
+    padding-bottom: 0px;
     background: #f9f9f9;
 }
 
